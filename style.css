@@ -175,7 +175,7 @@ html {
 @media (max-width: 768px) {
  .images3{
     width: fit-content;
-    flex-direction: column;
+    flex-wrap: wrap;
  }
  .section1{
     width: fit-content;
