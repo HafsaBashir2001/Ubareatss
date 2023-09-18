@@ -16,6 +16,8 @@
     <title>Uber Eats | Food Delivery and TakeOut | Online Order</title>
 </head>
 <body>
+   
+      
     
     <section class="section1">
         <!-- <div class="title">
@@ -44,12 +46,20 @@
                         value=""
                     >
                 </div>
-                <button class="SignIn"> <i class="fas fa-sign-in-alt"></i> Log in</button>
-                <button class="Signup">Sign Up</button>
+                <button type="button"  class="SignIn"> <i class="fas fa-sign-in-alt"></i> <span></span> Log in</button>
+                <button type="button" class="Signup"> <span></span>Sign Up</button>
             </nav>
         </div>
         <div class="heading">
-            Order food to your door
+          <div><span style="color: green; text-shadow: 
+            -1px -1px 0 #000, /* Top-left shadow */
+            1px -1px 0 #000, /* Top-right shadow */
+            -1px 1px 0 #000, /* Bottom-left shadow */
+            1px 1px 0 #000; /* Bottom-right shadow */">Order</span> food to your <span style="color: green;text-shadow: 
+            -1px -1px 0 #000, /* Top-left shadow */
+            1px -1px 0 #000, /* Top-right shadow */
+            -1px 1px 0 #000, /* Bottom-left shadow */
+            1px 1px 0 #000; /* Bottom-right shadow */">door</span></div>  
             <div class="input-group" style="margin-top: 16px;">
                 <i style="color: black;" class="fas fa-map-marker-alt"></i> <!-- FontAwesome icon for location -->
                 <input   
@@ -65,7 +75,7 @@
                     placeholder="Enter delivery address"
                     class="EnterLocation"
                     value=""
-                    style="border: none; font-size: 17px; text-decoration: none;padding: 10px; outline: none; margin-right: 328px;"
+                    style="border: none; width: 375px; font-size: 17px; text-decoration: none;padding: 10px; outline: none; margin-right: 328px;"
                 >
             </div>
             
@@ -79,17 +89,25 @@
         <div class="img1">
           
             <img src="Images/1.jpg"   alt="" >
-            <a href="https://www.ubereats.com/">Food 1</a>
+            <a href="https://www.ubereats.com/">
+                Lorem ipsum dolor sit amet consectetur. <br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            </a>
+           
         </div>
         <div class="img1">
 
             <img src="Images/2.jpg" alt="">
-            <a href="https://www.ubereats.com/">Food 2</a>
+            <a href="https://www.ubereats.com/">               
+                 Lorem ipsum dolor sit amet consectetur. <br>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </a>
         </div>
         <div class="img1">
 
             <img src="Images/3.jpg" alt=""> 
-          <a href="https://www.ubereats.com/">Food 3</a>
+          <a href="https://www.ubereats.com/">
+            Lorem ipsum dolor sit amet consectetur. <br>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+
+        </a>
         </div>
 
     </div>
@@ -100,6 +118,27 @@
 <section class="cities">
 
 </section>
+<div class="burger-menu">
+    <div class="burger-icon">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    <ul class="menu-items">
+        
+        <button type="button" class="SignIn" onclick="window.location.href = 'https://auth.uber.com/v2/?breeze_local_zone=dca8&next_url=https%3A%2F%2Fwww.ubereats.com%2Flogin-redirect%2F%3Fapp_clip%3Dfalse%26campaign%3Dsignin_universal_link%26guest_mode%3Dfalse%26marketing_vistor_id%3D7c1b3b6d-1e90-434a-aba4-ddc2e9889b9d%26redirect%3D%252F&state=7PxeY43jloKRpBt0fVFUFKgEQP3NpYGp6DCAQpzaWFo%3D&x-uber-did=9e7eed8c-7d72-4ddf-be31-797dc0c6770e'">
+            <i class="fas fa-sign-in-alt"></i> Log in
+        </button>
+        <button type="button" class="Signup" onclick="window.location.href = 'https://auth.uber.com/v2/?breeze_local_zone=dca22&next_url=https%3A%2F%2Fwww.ubereats.com%2Flogin-redirect%2F%3Fapp_clip%3Dfalse%26campaign%3Dsignin_universal_link%26guest_mode%3Dfalse%26marketing_vistor_id%3D7c1b3b6d-1e90-434a-aba4-ddc2e9889b9d%26redirect%3D%252F&state=Z4p6btVRQqmb32ZrezlHAWU33YoNXtey1by0otmXXY8%3D&x-uber-did=9e7eed8c-7d72-4ddf-be31-797dc0c6770e'">
+            Sign Up
+        </button>
+        
+      <li><a href="//www.uber.com/business/eats">Create a business account</a></li>
+      <li><a href="//merchants.ubereats.com/s/signup/">Add your restaurant</a></li>
+      <li><a href="//www.uber.com/drive/delivery/">Sign up to deliver</a></li>
+    </ul>
+  </div>
+  
 
 <br>
 <br>
